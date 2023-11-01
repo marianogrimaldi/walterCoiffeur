@@ -1,0 +1,197 @@
+.imgHome{
+    max-width: 100%;
+    position: absolute;
+    filter: blur(3px);
+    opacity: .5;
+}
+
+.titleHome{
+  
+    margin-top: 10rem;
+    font-family: 'Gruppo', cursive;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+
+}
+
+.subTitleHome{
+   
+   
+    font-family: 'Gruppo', cursive;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+.textHome{
+    font-family: 'Great Vibes', cursive;
+   
+    
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10rem;
+   
+}
+
+
+.text{
+
+    p{
+       
+        margin-bottom: 10rem;
+        view-timeline-name: --text;
+        view-timeline-axis: block;
+
+        animation-timeline: --text;
+        animation-name: show;
+        animation-range: entry 25% cover 50%;
+        animation-fill-mode: both;
+    }
+}
+
+p{
+        margin-top: 15rem;
+        margin-left: 2rem;
+        font-size: 3.5rem;
+        z-index: 2;
+    }
+
+
+
+
+
+
+.flexEndHome{
+   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+   
+    
+    h4{
+        color: white;
+        font-size: 2rem;
+        font-family: 'Gruppo', cursive;
+        text-align:right;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .concepto{
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        font-family: 'Gruppo', cursive;
+        text-align:right;
+        
+    }
+    img{
+        width: 10rem;
+        
+    }
+    
+    .fraseUno{
+        text-align:left;
+    }
+}
+
+.ojosImg {
+    width: 100%;
+    filter: gray; 
+    -webkit-filter: grayscale(100%); 
+    position: absolute;
+    margin-top: 11rem;
+    view-timeline-name: --text;
+    view-timeline-axis: block;
+
+    animation-timeline: --text;
+    animation-name: show;
+    animation-range: entry 5% cover 65%;
+    animation-fill-mode: both;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.contTij{
+    display: flex;
+    justify-content: center;
+}
+
+.tijHome{
+    
+    width: 18rem;
+    margin: 0 auto;
+    view-timeline-name: --text;
+    view-timeline-axis: block;
+
+    animation-timeline: --text;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.verticalLines{
+    position: absolute;
+    top: 0;
+    height: 100rem;
+    width: .2rem;
+    z-index: -1;
+    margin-left: 4rem;
+    background-image: linear-gradient(black, goldenrod, goldenrod, goldenrod,goldenrod,  goldenrod,black)
+}
+
+.verticalLines2{
+    position: absolute;
+    top: 0;
+    height: 105rem;
+    width: .2rem;
+    z-index: -1;
+    margin-left: 5rem;
+    background-image: linear-gradient(black, goldenrod,  goldenrod,goldenrod,  goldenrod,black)
+}
+
+.verticalLines3{
+    position: absolute;
+    top: 0;
+    height: 110rem;
+    width: .2rem;
+    z-index: -1;
+    margin-left: 6rem;
+    background-image: linear-gradient(black, goldenrod, goldenrod, goldenrod,black)
+}
+
+.verticalLines4{
+    position: absolute;
+    top: 0;
+    height: 115rem;
+    width: .2rem;
+    z-index: -1;
+    margin-left: 7rem;
+    background-image: linear-gradient(black, goldenrod, goldenrod,black)
+}
+
+.verticalLines5{
+    position: absolute;
+    top: 0;
+    height: 118rem;
+    width: .2rem;
+    z-index: -1;
+    margin-left: 8rem;
+    background-image: linear-gradient(black, goldenrod, black)
+}
