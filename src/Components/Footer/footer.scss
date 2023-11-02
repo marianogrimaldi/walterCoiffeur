@@ -2,8 +2,10 @@
 
 .iFooter{
     
-    position: absolute;
-    opacity: 0.4;max-width: 100%;
+    
+    opacity: 0.4;
+    max-width: 100%;
+    
 }
 
 .tijeraFooter{
@@ -24,13 +26,15 @@
     
     display: flex;
    justify-content: center;
-    
-   
-   
+    margin-top: -22rem;
 }
 
 
-
+@media screen and (max-width: 479px){
+    .flexPadreFooter{
+        margin-top: -9rem;
+    }
+}
 
 .flexTitleRedes {
     display: flex;
@@ -38,6 +42,10 @@
     align-items: center;
    justify-content: center;
    gap:0.3rem;   
+
+   h2{
+    margin-bottom: 2rem;
+   }
 }
 
 @media screen and (max-width: 479px){
@@ -54,13 +62,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:3rem
-   
+    gap:3rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 479px){
     .logosRedes{
         gap: 1rem;
+        margin-bottom: .5rem;
     }
 }
 
@@ -109,6 +118,7 @@ p{
 
 @media screen and (max-width: 479px){
     .mapFlex{
+        
         p{
             font-size: .8rem;
            
@@ -137,5 +147,13 @@ p{
 }
 
 .cel{
+    margin-top: 1rem;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 479px){
+    .cel{
+       margin-top: 0;
+        font-size: .8rem;
+    }
 }

@@ -13,6 +13,10 @@
 
 @media screen and (max-width: 479px){
     .flexMarcas{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
         img{
             width: 3rem;
         }
