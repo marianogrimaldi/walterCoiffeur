@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import NavBar from './Components/Navbar/navBar'
+import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
 import Nosotros from './Components/Nosotros/Nosotros'
 import Services from './Components/Service/service'
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <ScrollToTop/>
-        <NavBar/>
+        <Header/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/nosotros" element={<Nosotros/>}/>

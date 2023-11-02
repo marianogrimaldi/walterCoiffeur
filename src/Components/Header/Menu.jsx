@@ -1,0 +1,24 @@
+import menu from "../../assets/img/menu.png"
+import "./Header.scss"
+import { NavLink } from "react-router-dom"
+
+const Menu = () => {
+    return (
+        <header>
+            <label htmlFor="menu" className="nav__label">
+                    <img src={menu} alt="" className="nav__img" />
+                </label>
+                <input type="checkbox" id="menu" className="nav__imput" />
+            <ul className="ulFlex">
+                <NavLink to="/"><li > HOME</li></NavLink>
+                <NavLink to="/nosotros"><li>NOSOTROS</li></NavLink>
+                <NavLink to="/services"><li>SERVICIOS</li></NavLink>
+                <NavLink to="/galeria"><li>GALERIA</li></NavLink>
+                <li>CONTACTO</li>
+            </ul> 
+
+  </header>
+    )
+}
+
+export default Menu

@@ -103,39 +103,56 @@ li:hover img {
   border-radius: 5rem;
 }
 
-.sub3{
-  width: 31rem;
-  height: 0.2rem;
-  background-image: linear-gradient(to right,goldenrod, black);
-  position: absolute;
-  margin-top: 7rem;
-  margin-left: 48rem;
-  border-radius: 5rem;
+
+
+@media screen and (max-width: 479px){
+    .sub, .sub1, .sub2{
+      display: none;
+    }
 }
 
-.sub4{
-  width: 19rem;
-  height: 0.2rem;
-  background-image: linear-gradient(to right,goldenrod, black);
+.nav__img{
+  width: 5rem;
   position: absolute;
-  margin-top: 8rem;
-  margin-left: 60rem;
-  border-radius: 5rem;
-}
-.sub5{
-  width: 8rem;
-  height: 0.2rem;
-  background-image: linear-gradient(to right,goldenrod, black);
-  position: absolute;
-  margin-top: 9rem;
-  margin-left: 71rem;
-  border-radius: 5rem;
+  position: fixed;
+  left: 30rem;
+  top:5rem;
+  z-index: 3;
+  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
-.sepElement{
-  width: 79rem;
-  height: 0.5rem;
-  background-image: linear-gradient(black,goldenrod, black);
-  border-radius: 5rem;
+.nav__imput{
+  display: none;
 }
 
+.nav__label{
+  
+  display: none;
+}
+
+@media screen and (max-width: 992px){
+  .nav__label{
+      display: block;
+      cursor: pointer;
+  }
+
+  .nav__img{
+      width: 3rem;
+  }
+  .ulFlex{
+      position: fixed;
+      text-align: center;
+      flex-direction: column;
+      top:3.5rem;
+      clip-path: polygon(100% 0, 0 0, 0 0, 100% 0);
+      transition: clip-path .5s;
+      background-color: transparentize($color: #ffffff, $amount: .5);
+      width: 100%;
+     
+     
+  }
+
+  .nav__imput:checked + .ulFlex{
+      clip-path:polygon(100% 0, 0 0, 0 98%, 100% 98%);
+  }
+}
