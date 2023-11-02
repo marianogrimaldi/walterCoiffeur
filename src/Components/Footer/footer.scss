@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 479px){
     .flexPadreFooter{
-        margin-top: -9rem;
+        margin-top: -21rem;
     }
 }
 
@@ -53,7 +53,8 @@
         h2{
             font-size: 1.3rem;
             margin-top: .5rem;
-            margin-bottom: .5rem;
+            margin-bottom: 12rem;
+            
         }
     }
 }
@@ -69,7 +70,7 @@
 @media screen and (max-width: 479px){
     .logosRedes{
         gap: 1rem;
-        margin-bottom: .5rem;
+        margin-bottom: 0;
     }
 }
 
@@ -81,7 +82,7 @@
 
 @media screen and (max-width: 479px){
     .logoR{
-        width: 1rem;
+        width: 2rem;
     }
 }
 
@@ -136,15 +137,7 @@ p{
     }
 }
 
-.flexNavFooter{
-    display: flex;
-    gap: 2rem;
-    background-image: linear-gradient(gold, black, gold);
-    position: relative;
-    border-radius: 2rem;
-    margin: 1rem;
-    padding: 1rem;
-}
+
 
 .cel{
     margin-top: 1rem;

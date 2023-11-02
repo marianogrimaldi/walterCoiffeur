@@ -24,7 +24,9 @@ const Home = () => {
             <div className="contTij">
                 <img src={tijeras} className="tijHome" alt="" />
             </div>
-            <img src={ojos} className="ojosImg" alt="" />
+           
+             <img src={ojos} className="ojosImg" alt="" />
+         
             <div className="flexEndHome">
                 <h4 className="fraseUno">una mirada <br /> distinta...</h4>
                 <h4 className="concepto">...un concepto <br /> diferente</h4>
