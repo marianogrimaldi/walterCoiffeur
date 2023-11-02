@@ -18,7 +18,7 @@ const Footer = () => {
             <Marcas/>
             <img src={imgFooter} className="iFooter" alt="" />
             <div className="flexPadreFooter">
-                <img src={decoInv} className="tijeraFooter" alt="" />
+                
                 <div className="flexTitleRedes">
                     <h2>Salon Boutique - Walter Coiffeur</h2>
                        
@@ -38,7 +38,7 @@ const Footer = () => {
                         </div>
                         <p className="cel">CELULAR 3406 645956</p>
                 </div>
-                <img src={deco} className="tijeraFooter" alt="" />
+            
             </div>
             
         </footer>
