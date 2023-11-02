@@ -17,6 +17,12 @@
   filter: drop-shadow(2px 2px 1rem rgb(253, 253, 253));
 }
 
+@media screen and (max-width: 479px){
+  .logoWalter{
+    display: none;
+  }
+}
+
 .navFlex{
   display: flex;
   justify-content: space-between;
@@ -111,11 +117,15 @@ li:hover img {
     }
 }
 
+.flexLogoMobile{
+  display: flex;
+  justify-content: center;
+}
+
 .nav__img{
-  width: 5rem;
-  position: absolute;
-  position: fixed;
-  left: 30rem;
+  width: 10rem;
+  
+ margin: 0 auto;
   top:5rem;
   z-index: 3;
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
@@ -126,18 +136,19 @@ li:hover img {
 }
 
 .nav__label{
-  
+ 
   display: none;
 }
 
 @media screen and (max-width: 992px){
   .nav__label{
-      display: block;
+    display: flex;
+    justify-content: center;
       cursor: pointer;
   }
 
   .nav__img{
-      width: 3rem;
+      width: 5rem;
   }
   .ulFlex{
       position: fixed;
@@ -156,3 +167,4 @@ li:hover img {
       clip-path:polygon(100% 0, 0 0, 0 98%, 100% 98%);
   }
 }
+
