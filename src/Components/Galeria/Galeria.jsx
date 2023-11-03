@@ -38,7 +38,7 @@ const Galeria = () => {
         "/staff/7.jpg",
         "/staff/1.jpg",
         "/staff/5.jpg",
-        "/staff/3.jpg",
+        
         "/staff/4.jpg",
         "/staff/2.jpg",
         "/staff/6.jpg",

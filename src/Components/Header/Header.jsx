@@ -15,7 +15,7 @@ const Header = () => {
                     <NavLink to="/nosotros"><li><img src={tijeras} className="tijeras" alt=""/>NOSOTROS</li></NavLink>
                     <NavLink to="/services"><li><img src={tijeras} className="tijeras" alt=""/>SERVICIOS</li></NavLink>
                     <NavLink to="/galeria"><li><img src={tijeras} className="tijeras" alt=""/>GALERIA</li></NavLink>
-                    <li><img src={tijeras} className="tijeras" alt=""/>CONTACTO</li>
+                    <a href="#footer"><li><img src={tijeras} className="tijeras" alt=""/>CONTACTO</li></a>
                 </ul> 
                 <div className="sub"></div>
                 <div className="sub1"></div>

@@ -1,11 +1,13 @@
 
 import imgService from "../../assets/img/LOGO NEGATIVO PNG.png"
 import "./service.scss"
+import Menu from "../Header/Menu"
 const Services = () => {
     return (
 
         <section className="animation">
             <article>
+                <Menu/>
                 <h1>Todos nuestros servicios son premium</h1>
                 
                 <div className="gridService">
