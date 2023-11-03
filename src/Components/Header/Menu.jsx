@@ -14,7 +14,7 @@ const Menu = () => {
                 <NavLink to="/nosotros"><li>NOSOTROS</li></NavLink>
                 <NavLink to="/services"><li>SERVICIOS</li></NavLink>
                 <NavLink to="/galeria"><li>GALERIA</li></NavLink>
-                <li>CONTACTO</li>
+                <a href="#footer"><li>CONTACTO</li></a>
             </ul> 
 
   </header>
