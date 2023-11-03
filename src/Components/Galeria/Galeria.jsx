@@ -1,5 +1,6 @@
 import "./Galeria.scss"
 import { RViewer, RViewerTrigger } from "react-viewerjs";
+import Menu from "../Header/Menu"
 
 const Galeria = () => {
     let imagenes = [
@@ -47,7 +48,7 @@ const Galeria = () => {
     return (
         <div className="animation">
             
-           
+            <Menu/>
             <h2 className="subtitleGallery">Clientes</h2>
              <RViewer imageUrls={imagenesClientes}>
                 <div className="flexImg">

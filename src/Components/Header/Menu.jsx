@@ -10,7 +10,7 @@ const Menu = () => {
                 </label>
                 <input type="checkbox" id="menu" className="nav__imput" />
             <ul className="ulFlex">
-                <NavLink to="/"><li > HOME</li></NavLink>
+                <NavLink to="/"><li > INICIO</li></NavLink>
                 <NavLink to="/nosotros"><li>NOSOTROS</li></NavLink>
                 <NavLink to="/services"><li>SERVICIOS</li></NavLink>
                 <NavLink to="/galeria"><li>GALERIA</li></NavLink>
