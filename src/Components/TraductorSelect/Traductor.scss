@@ -7,12 +7,13 @@
     position: absolute;
     left: 80%;
     right: 0;
+    
 
     img{
         width: 2rem;
         height: 1.5rem;
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
-        z-index: 1;
+        
         transition: .5s;
         filter: gray;
         -webkit-filter: grayscale(100%);
@@ -37,7 +38,7 @@
 
 @media screen and (max-width: 479px){
     .flags{
-        top:11rem;
+        top:2rem;
         left: 0;
         right: 5%;
 

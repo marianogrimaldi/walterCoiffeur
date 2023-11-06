@@ -44,11 +44,19 @@
    
 }
 
+
+
 .subtitleGallery{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
     margin-top: 10rem;
+}
+
+@media screen and (max-width: 479px){
+    .subtitleGallery{
+        margin-top: 3rem;
+    }
 }
 
 .subtitle3Gallery{
