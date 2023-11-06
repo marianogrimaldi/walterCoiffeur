@@ -19,7 +19,8 @@
     }
 
     .flagSelected{
-        scale: 1.5;
+        width: 2.5rem;
+        height: 2rem;
         filter: gray;
         -webkit-filter: none
     }
@@ -38,16 +39,9 @@
     .flags{
         top:11rem;
         left: 0;
+        right: 5%;
 
-        img{
-            width: 1.5rem;
-            height: 1rem;
-           
-        }
-        .flagSelected{
-           scale: 1.5;
-           
-        }
+     
     }
 }
 
