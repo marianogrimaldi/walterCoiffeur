@@ -199,6 +199,12 @@ p{
     background-image: linear-gradient(black, goldenrod, goldenrod, goldenrod,goldenrod,  goldenrod,black)
 }
 
+@media screen and (max-width: 992px){
+    .verticalLines{
+        margin-left: 1rem;
+    }
+}
+
 .verticalLines2{
     position: absolute;
     top: 0;
@@ -207,6 +213,12 @@ p{
     z-index: -1;
     margin-left: 5rem;
     background-image: linear-gradient(black, goldenrod,  goldenrod,goldenrod,  goldenrod,black)
+}
+
+@media screen and (max-width: 992px){
+    .verticalLines2{
+        margin-left: 2rem;
+    }
 }
 
 .verticalLines3{
@@ -219,6 +231,12 @@ p{
     background-image: linear-gradient(black, goldenrod, goldenrod, goldenrod,black)
 }
 
+@media screen and (max-width: 992px){
+    .verticalLines3{
+        margin-left: 3rem;
+    }
+}
+
 .verticalLines4{
     position: absolute;
     top: 0;
@@ -229,6 +247,12 @@ p{
     background-image: linear-gradient(black, goldenrod, goldenrod,black)
 }
 
+@media screen and (max-width: 992px){
+    .verticalLines4{
+        margin-left: 4rem;
+    }
+}
+
 .verticalLines5{
     position: absolute;
     top: 0;
@@ -237,4 +261,10 @@ p{
     z-index: -1;
     margin-left: 8rem;
     background-image: linear-gradient(black, goldenrod, black)
+}
+
+@media screen and (max-width: 992px){
+    .verticalLines5{
+        margin-left: 5rem;
+    }
 }
