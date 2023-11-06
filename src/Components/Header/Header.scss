@@ -17,6 +17,8 @@
   filter: drop-shadow(2px 2px 1rem rgb(253, 253, 253));
 }
 
+
+
 @media screen and (max-width: 479px){
   .logoWalter{
     display: none;
@@ -135,7 +137,7 @@ li:hover img {
   display: none;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 479px){
   .nav__label{
     display: flex;
     justify-content: center;
