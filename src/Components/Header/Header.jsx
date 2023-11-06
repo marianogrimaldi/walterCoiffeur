@@ -2,7 +2,7 @@ import tijeras from "../../assets/img/tijeras.png"
 import logo from "../../assets/img/LOGO NEGATIVO PNG.png"
 import { NavLink } from "react-router-dom"
 import "./Header.scss"
-
+import Traductor from "../TraductorSelect/Traductor"
 
 const Header = () => {
     return (
@@ -17,6 +17,7 @@ const Header = () => {
                     <NavLink to="/galeria"><li><img src={tijeras} className="tijeras" alt=""/>GALERIA</li></NavLink>
                     <a href="#footer"><li><img src={tijeras} className="tijeras" alt=""/>CONTACTO</li></a>
                 </ul> 
+                <Traductor/>
                 <div className="sub"></div>
                 <div className="sub1"></div>
                 <div className="sub2"></div>
