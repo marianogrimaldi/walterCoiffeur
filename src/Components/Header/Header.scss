@@ -48,13 +48,18 @@
       transition: 1s;
       cursor: pointer;
       position: relative;
-      
-     
-      
   }
 
   li:hover{
       color: goldenrod;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .navFlex{
+    li{
+      font-size: .8rem;
+    }
   }
 }
 
@@ -74,6 +79,7 @@
 @media screen and (max-width: 992px){
   .ulFlex{
     gap:2rem;
+    margin-right: 0rem;
   }
 }
 
