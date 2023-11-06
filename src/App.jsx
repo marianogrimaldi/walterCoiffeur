@@ -6,7 +6,7 @@ import Nosotros from './Components/Nosotros/Nosotros'
 import Services from './Components/Service/service'
 import Galeria from './Components/Galeria/Galeria'
 import Footer from './Components/Footer/footer'
-import ScrollToTop from './Components/Scol/Scrol'
+import ScrollToTop from './Components/Scrol/Scrol'
 import './App.css'
 
 

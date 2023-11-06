@@ -89,6 +89,15 @@ section{
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 992px){
+    .adicionales{
+        margin-bottom: 7rem;
+        h2{
+            margin-bottom: 1rem;
+        }
+    }
+}
+
 @media screen and (max-width: 479px){
     .adicionales{
         margin-bottom: 5rem;

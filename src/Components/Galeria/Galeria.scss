@@ -21,6 +21,20 @@
     }
 }
 
+@media screen and (max-width: 992px){
+    .flexImg{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+
+        img{
+            width: 6rem;
+            height: 12rem;
+        }
+    }
+}
+
 @media screen and (max-width: 479px){
     .flexImg{
         display: grid;

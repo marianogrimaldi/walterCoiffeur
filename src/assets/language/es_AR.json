@@ -1,9 +1,27 @@
 {
     "translation": {
-        "Header":{
-            "calendario": "CALENDARIO",
+        "Header": {
+            "inicio": "INICIO",
+            "nosotros": "NOSOTROS",
+            "servicios": "SERVICIOS",
+            "galeria": "GALERIA",
             "contacto": "CONTACTO"
+        },
+        "Home": {
+            "salon": "Salon Boutique",
+            "welcome": "Bienvenidos a una experiencia única...",
+            "lugar": "UN LUGAR DIFERENTE",
+            "calidad": "CALIDAD Y ESTILO",
+            "staff": "STAFF DE LUJO"
+        },
+        "Nosotros": {
+            "salon": "Salon Boutique"
+        },
+        "Footer": {
+            "salon": "Salon Boutique",
+            "diasSJ": "MIERCOLES A SABADO DE 9H A 17Hs",
+            "diasET": "MARTES DE 9H A 17H",
+            "cel": "CELULAR"
         }
-      
     }
 }

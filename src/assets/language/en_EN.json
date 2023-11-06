@@ -1,8 +1,27 @@
 {
   "translation": {
-    "Header":{
-      "calendario": "CALENDAR",
+    "Header": {
+      "inicio": "HOME",
+      "nosotros": "ABOUT US",
+      "servicios": "SERVICES",
+      "galeria": "GALLERY",
       "contacto": "CONTACT"
-  }
+    },
+    "Home": {
+      "salon": "Boutique Salon",
+      "welcome": "Welcome to a unique experience...",
+      "lugar": "A DIFFERENT PLACE",
+      "calidad": "QUALITY AND STYLE",
+      "staff": "LUXURY STAFF"
+    },
+    "Nosotros": {
+      "salon": "Boutique Salon"
+    },
+    "Footer": {
+      "salon": "Boutique Salon",
+      "diasSJ": "WEDNESDAY TO SATURDAY FROM 9AM TO 5PM",
+      "diasET": "TUESDAYS FROM 9AM TO 5PM",
+      "cel": "CELL PHONE"
+    }
   }
 }
