@@ -17,6 +17,104 @@
         "Nosotros": {
             "salon": "Salon Boutique"
         },
+        "Servicios":{
+            "titulo": "Todos nuestros servicios son premium",
+
+            "1": "CORTES",
+            "1-1": "Damas",
+            "1-2": "Caballeros",
+            "1-3": "Niños - Bebes",
+
+            "2": "TRABAJOS DE COLORACION",
+            "2-1": "Coloración con amoniaco",
+            "2-2": "Coloración sin amoniaco",
+            "2-3": "Coloración semipermanente (baño de color)",
+            "2-4": "COLORACION SEMIPERMATE PARA CABALLEROS",
+            "2-5": "Glousing (activador de color)",
+
+            "3": "TRABAJOS TECNICOS DE COLORACION",
+            "3-1": "Reflejos con gorro",
+            "3-2": "Reflejos con papel",
+            "3-3": "Reflejos parte superior",
+            "3-4": "Reflejos media cabeza",
+            "3-5": "Reflejos de raiz",
+            "3-6": "Reflejos con super aclarante",
+            "3-7": "Iluminaciones",
+            "3-8": "Balayage",
+            "3-9": "Coutering",
+
+            "4": "TRABAJOS TECNICOS",
+            "4-1": "Alisado",
+            "4-2": "Alisado de flequillo en bacha",
+            "4-3": "Alisado de flequillo con plancha",
+            "4-4": "Extensiones",
+            "4-5": "Cortinas de pelo",
+            "4-6": "Pelucas (colocación, lavado y corte)",
+
+            "5": "TRATAMIENTOS",
+            "5-1": "Higiene capilar",
+            "5-2": "Botox",
+            "5-3": "Shock de keratina",
+            "5-4": "Splash keratinico",
+            "5-5": "Tratamiento de la fibra capilar",
+            "5-6": "o nutrición profunda (baño de crema)",
+
+            "6": "PEINADOS",
+            "6-1": "Styling (acomodado)",
+            "6-2": "Brushing",
+            "6-3": "Recogido",
+            "6-4": "Semirecogido",
+            "6-5": "Social",
+            "6-6": "Novia",
+            "6-7": "Quinceañera",
+            "6-8": "Graduada",
+
+            "7": "MAQUILLAJE",
+            "7-1": "Novia",
+            "7-2": "Quinceañera",
+            "7-3": "Graduadas",
+            "7-4": "Social",
+
+            "8": "BELLEZA DE MANO",
+            "8-1": "Solo arreglar",
+            "8-2": "Solo pintar",
+            "8-3": "Esmalte tradicionales",
+            "8-4": "Esmalte semipermanente",
+            "8-5": "Retirado de esmalte semipermanente",
+            "8-6": "Niñas",
+
+            "9": "BELLEZA DE PIE",
+            "9-1": "Solo arreglar",
+            "9-2": "Solo pintar",
+            "9-3": "Esmalte Tradicionales",
+            "9-4": "Esmalte Semipermanente",
+            "9-5": "Retirado de esmalte semipermanente",
+
+            "10": "PESTAÑAS",
+            "10-1": "Lifting",
+            "10-2": "Tinte",
+
+            "11": "CEJAS",
+            "11-1": "Perfilado",
+            "11-2": "Tinte",
+            "11-3": "Laminado",
+            "11-4": "Microblanding",
+
+            "12": "ADICIONALES",
+            "12-1": "Nos trasladamos a tu hogar o localidad",
+            "12-2": "Trabajos fuera de hora, feriados y domingos",
+            "12-3": "Asesoramiento y ventas de productos",
+            "12-4": "Gift card (tarjetas para regalar)",
+            "12-5": "Asesoramiento personalizado",
+            "12-6": "Turnos a tu medida",
+            "12-7": "Presupuestos y tiempo estimado de permanencia en el salón"
+           
+        },
+        "Galeria":{
+            "clientes": "Clientes",
+            "salon": "Salon Boutique",
+            "familia": "Nuestra Familia"
+        },
         "Footer": {
             "salon": "Salon Boutique",
             "diasSJ": "MIERCOLES A SABADO DE 9H A 17Hs",

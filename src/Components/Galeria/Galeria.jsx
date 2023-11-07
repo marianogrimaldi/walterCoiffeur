@@ -1,6 +1,7 @@
 import "./Galeria.scss"
 import { RViewer, RViewerTrigger } from "react-viewerjs";
 import Menu from "../Header/Menu"
+import { useTranslation } from "react-i18next"
 
 const Galeria = () => {
     let imagenes = [
@@ -45,11 +46,14 @@ const Galeria = () => {
         "/staff/6.jpg",
         
     ]
+
+    const { t } = useTranslation()
+
     return (
         <div className="animation">
             
             <Menu/>
-            <h2 className="subtitleGallery">Clientes</h2>
+            <h2 className="subtitleGallery">{t("Galeria.clientes")}</h2>
              <RViewer imageUrls={imagenesClientes}>
                 <div className="flexImg">
                     {imagenesClientes.map((imagen, index)=> {
@@ -63,7 +67,7 @@ const Galeria = () => {
                     }) }
                 </div>
              </RViewer> 
-             <h1 className="titleGallery">Salon Boutique</h1>
+             <h1 className="titleGallery">{t("Galeria.salon")}</h1>
             <RViewer imageUrls={imagenes}>
                 <div className="flexImg">
                     {imagenes.map((imagen, index)=> {
@@ -77,7 +81,7 @@ const Galeria = () => {
                     }) }
                 </div> 
             </RViewer>
-             <h2 className="subtitle3Gallery">Nuestra Familia</h2>
+             <h2 className="subtitle3Gallery">{t("Galeria.familia")}</h2>
              <RViewer imageUrls={imagenesStaff}>
                 <div className="flexImg">
                     {imagenesStaff.map((imagen, index)=> {

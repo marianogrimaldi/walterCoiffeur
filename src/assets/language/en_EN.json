@@ -17,6 +17,104 @@
     "Nosotros": {
       "salon": "Boutique Salon"
     },
+    "Servicios":{
+      "titulo": "All our services are premium",
+      
+      "1": "CUTS",
+      "1-1": "Ladies",
+      "1-2": "Gentlemen",
+      "1-3": "Children - Babies",
+
+      "2": "COLORING WORK",
+      "2-1": "Ammonia coloring",
+      "2-2": "Ammonia-free coloring",
+      "2-3": "Semi-permanent coloring (color bath)",
+      "2-4": "SEMI-PERMATTE COLOR FOR MEN",
+      "2-5": "Glousing (color activator)",
+
+      "3": "TECHNICAL COLORING WORK",
+      "3-1": "Reflections with hat",
+      "3-2": "Reflections with paper",
+      "3-3": "Top reflections",
+      "3-4": "Half head reflexes",
+      "3-5": "Root reflexes",
+      "3-6": "Highlights with super lightening",
+      "3-7": "Illuminations",
+      "3-8": "Balayage",
+      "3-9": "Coutering",
+
+      "4": "TECHNICAL WORK",
+      "4-1": "Straightening",
+      "4-2": "Straightening bangs in basin",
+      "4-3": "Straightening bangs with an iron",
+      "4-4": "Extensions",
+      "4-5": "Hair curtains",
+      "4-6": "Wigs (laying, washing and cutting)",
+
+      "5": "TREATMENTS",
+      "5-1": "Hair hygiene",
+      "5-2": "Botox",
+      "5-3": "Keratin shock",
+      "5-4": "Keratin splash",
+      "5-5": "Hair fiber treatment",
+      "5-6": "or deep nutrition (cream bath)",
+
+      "6": "HAIRSTYLES",
+      "6-1": "Styling (accommodated)",
+      "6-2": "Brushing",
+      "6-3": "Picked up",
+      "6-4": "Half gathered",
+      "6-5": "Social",
+      "6-6": "Bride",
+      "6-7": "Fifteen-year-old girl",
+      "6-8": "Graduate",
+
+      "7": "MAKE-UP",
+      "7-1": "Bride",
+      "7-2": "Fifteen-year-old girl",
+      "7-3": "Graduate",
+      "7-4": "Social",
+
+      "8": "HAND BEAUTY",
+      "8-1": "Just fix",
+      "8-2": "Just paint",
+      "8-3": "Traditional enamel",
+      "8-4": "Semi-permanent nail polish",
+      "8-5": "Semi-permanent nail polish removal",
+      "8-6": "Girls",
+
+      "9": "FOOT BEAUTY",
+      "9-1": "Just fix",
+      "9-2": "ust paint",
+      "9-3": "Traditional enamel",
+      "9-4": "Semi-permanent nail polish",
+      "9-5": "Semi-permanent nail polish removal",
+
+      "10": "EYELASHES",
+      "10-1": "Lifting",
+      "10-2": "Dye",
+
+      "11": "EYEBROWS",
+      "11-1": "Profiling",
+      "11-2": "Dye",
+      "11-3": "Laminate",
+      "11-4": "Microblanding",
+
+      "12": "ADDITIONAL",
+      "12-1": "We move to your home or town",
+      "12-2": "Work after hours, holidays and Sundays",
+      "12-3": "Advice and product sales",
+      "12-4": "Gift card",
+      "12-5": "Personalized advice",
+      "12-6": "Tailor-made shifts",
+      "12-7": "Budgets and estimated time spent in the salon"
+     
+    },
+    "Galeria":{
+      "clientes": "Customers",
+      "salon": "Boutique Salon",
+      "familia": "Our Family"
+    },
     "Footer": {
       "salon": "Boutique Salon",
       "diasSJ": "WEDNESDAY TO SATURDAY FROM 9AM TO 5PM",
